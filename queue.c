@@ -5,9 +5,11 @@
 void initialize(queue *q) { 
     q->front = NULL; 
     q->rear = NULL;
+    q->size = 0;
+    //init fra opg 4
     q->s1 = NULL;
     q->s2 = NULL;
-    q->size = 0;
+    
 }
 
 bool empty(const queue *q) {
